@@ -1,0 +1,282 @@
+.sectionFive{
+
+    h1{
+        position: relative;
+
+    }
+}
+
+.content{
+    background-image: '/images/5.0.jpg';
+    justify-content: flex-start;
+}
+
+.profiles{
+
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+    align-items: flex-end;
+    
+    div{
+        margin-top: 60px;
+        margin-right: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    
+    span{
+
+        margin-top: 10px;
+        // color: black;
+        font-weight: 700;
+    }
+
+    button{
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        margin-top: 40px ;
+        width: 10vw;
+        border:0 ;
+        /* Auto layout */
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 11px 24px 13px;
+        gap: 10px;
+
+        width: 197px;
+        height: 60px;
+
+        /* Vazkepa/Accent */
+
+        background: #009ADE;
+        border-radius: 50px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+}
+
+.singleCard{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+    span{
+        padding-top:80px ;
+        font-size: 1.4rem;
+        align-self:baseline;
+        width: 26vw;
+    }
+}
+.gap1ContentMOD{
+
+    position: relative;
+    top: 4.4vh;
+
+}
+
+
+
+.gap1Content {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+
+}
+
+.gap1Content img {
+    width: 15vw;
+}
+
+.gap1Content ul {
+    margin-right: 20px;
+}
+
+.gap1Content li {
+    margin-bottom: 20px;
+}
+
+.gap1Content li:last-of-type {
+    margin-bottom: 0;
+}
+
+.topCardContainer{
+    position: relative;
+    left: 3vw;
+    top: 13vh;
+}
+.text{
+    position: relative;
+    top: -8.5vh;
+    left: 1vw;
+    width: 25vw;
+}
+
+.topCard{
+    position: relative;
+    top: -5vh;
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 16px;
+    gap: 31px;
+    
+    width: 438px;
+    height: 260px;
+
+    
+    /* Vazkepa/White */
+    
+    background: #FFFFFF;
+    /* Vazkepa/Apricot */
+    
+    border: 1px solid #FF9E18;
+
+    div{
+
+        position: relative;
+        left: 4.5vw;
+        padding: 0;
+        display: flex;
+        flex-direction: row-reverse;
+        img{
+            margin-right: 20px;
+            width: 2.4vh;
+        }
+        span{
+            margin-top: 0;
+            padding:0px ;
+            font-size: 1.2rem;
+
+        }
+        margin: 0;
+    }
+}
+
+.infoCards{
+    position: relative;
+    display: flex;
+    gap: 30px;
+   
+}
+
+.mainComponentVazkRedu{
+    position:relative;
+    left: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: 'flex-start';
+    font-size: 0.9rem;
+    .graph{
+        position: relative;
+        top: -2vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2vw;
+        width: 32vw;
+        h2{
+            padding: 0;
+            margin: 0;
+            align-self: flex-start;
+padding-top: 1.2vh;
+        }
+        p{
+            width: 30vw;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 1.5vh;
+
+        }
+        img{
+            height: 16vw;
+            align-self: flex-start;
+
+        }
+
+        table{
+
+            th{
+                padding-right: 2.85vw;
+                text-align: left;
+                font-weight: 400;
+            }
+            margin-bottom: 1.5vh;
+
+        }
+    }
+
+    .arrow{
+        position: relative;
+        top: -3vh;
+        margin-left: 3vw ;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        img{
+
+            height: 19vw;
+
+        }
+    }
+
+}
+
+
+.bottomReducedRisk{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: relative;
+    top: 2vh;
+    align-self: flex-end;
+    // width: 30vw;
+    button{
+        margin-right:2vw ;
+        font-size: 1rem;
+        z-index: 4;
+        border: 0;
+        background-color: inherit;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 12px;
+
+        height: 60px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+}
+

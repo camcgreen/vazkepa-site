@@ -1,7 +1,8 @@
 {
-  "name": "vazkepa-site",
-  "version": "0.1.0",
   "private": true,
+  "name": "my-nextron-app",
+  "description": "My application description",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,10 +10,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "8.40.0",
-    "eslint-config-next": "13.4.2",
-    "next": "13.4.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "electron-serve": "^1.1.0",
+    "electron-store": "^8.1.0",
+    "react-idle-timer": "^5.6.2",
+    "sass": "^1.62.1",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "electron": "^21.3.3",
+    "electron-builder": "^23.6.0",
+    "next": "^12.3.4",
+    "nextron": "^8.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

@@ -1,0 +1,28 @@
+.main {
+    z-index: 1000;
+
+    transition: all 1.5s cubic-bezier(0.77, 0, 0.175, 1);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    background-color: #4e2277a0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+
+}
+
+
+
+
+
+
+.video {
+    z-index: 1000;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}

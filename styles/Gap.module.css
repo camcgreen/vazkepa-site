@@ -1,0 +1,304 @@
+.gap1Content {
+    display: flex;
+    align-items: center;
+}
+
+.gap1Content ul {
+    margin-right: 20px;
+}
+
+.gap1Content li {
+    margin-bottom: 20px;
+}
+
+.gap1Content li:last-of-type {
+    margin-bottom: 0;
+}
+
+.gap1Content img {
+    /* width: 598px;
+    height: 511px; */
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    align-self: center;
+}
+
+.graph {
+    width: 659px;
+    margin-right: 40px;
+}
+
+.text {
+    width: 209px;
+}
+
+.callout {
+    width: 648px;
+    /* align-self: center; */
+    margin-left: 100px;
+}
+
+.buttonGap {
+    cursor: pointer;
+    position: fixed;
+    right: 40px;
+    bottom: 100px;
+    width: 236px;
+}
+
+.driversImg1 {
+    width: 900px;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+.driversImg2 {
+    width: 800px;
+    align-self: center;
+}
+
+.elevatedImg1 {
+    width: 664px;
+    align-self: center;
+}
+
+.buttonContainerElevated {
+    position: fixed;
+    display: flex;
+    right: 40px;
+    bottom: 100px;
+}
+
+.buttonElevated1 {
+    cursor: pointer;
+    width: 443px;
+    margin-right: 40px;
+}
+
+.buttonElevated2 {
+    cursor: pointer;
+    width: 236px;
+}
+
+.whatIsVazkepa1 {
+    width: 1022px;
+    align-self: center;
+    margin-top: 40px;
+}
+
+.buttonWhat {
+    cursor: pointer;
+    position: fixed;
+    right: 40px;
+    bottom: 100px;
+    width: 317px;
+}
+
+.howDoesVazkepa1 {
+    width: 852px;
+    align-self: center;
+    /* margin-top: 40px; */
+}
+
+.buttonHow {
+    cursor: pointer;
+    position: fixed;
+    right: 40px;
+    bottom: 100px;
+    width: 236px;
+}
+
+.howButtons {
+    position: fixed;
+    right: 40px;
+    bottom: 140px;
+    display: flex;
+}
+
+.howButtons img {
+    cursor: pointer;
+}
+
+.howButtons img:first-of-type {
+    width: 222px;
+    margin-right: 40px;
+}
+
+.howButtons img:last-of-type {
+    width: 236px;
+}
+
+.howNote {
+    position: fixed;
+    left: 790px;
+    bottom: 90px;
+    max-width: 800px;
+    font-size: 0.75rem;
+    opacity: 0.75;
+}
+
+.howNote sup {
+    font-size: 0.5rem;
+}
+
+.cardsGuidelines {
+    display: flex;
+    align-self: center;
+    margin-top: 40px;
+}
+
+.cardsGuidelines div:first-of-type {
+    margin-right: 40px;
+}
+
+.cardsGuidelines div {
+    width: 387px;
+    height: 483px;
+}
+
+.cardsGuidelines li {
+    /* list-style-position: inside; */
+    max-width: 75%;
+    transform: translateX(50px);
+    text-align: left;
+    color: var(--colGrey);
+}
+
+.cardsGuidelines li span {
+    color: var(--colBlue);
+    font-weight: 600;
+}
+
+.studyDesign1 {
+    width: 804px;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+.buttonBaseline {
+    cursor: pointer;
+    /* position: fixed;
+    right: 40px;
+    bottom: 100px; */
+    width: 300px;
+    align-self: flex-end;
+    margin-bottom: 80px;
+}
+
+.primaryEndpoint1 {
+    width: 818px;
+    align-self: center;
+    /* margin-bottom: 40px; */
+    margin-top: 100px;
+}
+
+.primaryEndpointButtons {
+    display: flex;
+    align-self: flex-end;
+    margin-top: 180px;
+}
+
+.primaryEndpointButtons img {
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.primaryEndpointButtons img:first-of-type {
+    width: 300px;
+}
+
+.primaryEndpointButtons img:last-of-type {
+    width: 400px;
+}
+
+.primarySecondaryEndpointButton {
+    cursor: pointer;
+    position: fixed;
+    right: 40px;
+    bottom: 200px;
+    width: 400px;
+}
+
+.primarySecondaryGrid {
+    align-self: center;
+    display: grid;
+    grid-template-rows: auto 369px auto;
+    grid-template-columns: repeat(2, 369px);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    /* margin-top: 40px; */
+    margin-top: 120px;
+    margin-bottom: -80px;
+}
+
+.primarySecondaryGrid p {
+    text-align: center;
+}
+
+.primarySecondaryGrid img {
+    width: 379px;
+}
+
+.primarySecondaryFootnote {
+    /* margin-top: 40px; */
+    margin-left: 100px;
+    margin-top: 220px;
+    width: 890px;
+}
+
+.secondaryHeader {
+    width: 779px;
+    align-self: center;
+    margin-bottom: 40px;
+    margin-top: 160px;
+}
+
+.secondaryButtons {
+    width: 779px;
+    height: 248px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.secondaryButtons img {
+    width: 242px;
+    align-self: start;  
+
+}
+
+.secondaryFootnote {
+    position: absolute;
+    bottom: 80px;
+    width: 955px;
+    align-self: center;
+}
+
+.safety1 {
+    width: 615px;  
+    align-self: center; 
+    margin-bottom: 20px;
+}
+
+.safety2 {
+    width: 819px;
+    align-self: center;
+    margin-bottom: 100px;
+}
+
+.safety3 {
+    width: 840px;
+    /* align-self: center; */
+}
+
+.safety4 {
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    bottom: 100px;
+    width: 235px;
+}
