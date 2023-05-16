@@ -74,13 +74,12 @@
 }
 
 .buttonElevated1 {
-    cursor: pointer;
-    width: 443px;
+    /* width: 443px; */
+    width: 507px;
     margin-right: 40px;
 }
 
 .buttonElevated2 {
-    cursor: pointer;
     width: 236px;
 }
 
@@ -117,10 +116,6 @@
     right: 40px;
     bottom: 140px;
     display: flex;
-}
-
-.howButtons img {
-    cursor: pointer;
 }
 
 .howButtons img:first-of-type {
@@ -186,7 +181,7 @@
     bottom: 100px; */
     width: 300px;
     align-self: flex-end;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 .primaryEndpoint1 {
@@ -199,11 +194,11 @@
 .primaryEndpointButtons {
     display: flex;
     align-self: flex-end;
-    margin-top: 180px;
+    margin-top: 120px;
+    transform: translateX(85px);
 }
 
 .primaryEndpointButtons img {
-    cursor: pointer;
     margin-right: 40px;
 }
 
@@ -216,17 +211,16 @@
 }
 
 .primarySecondaryEndpointButton {
-    cursor: pointer;
     position: fixed;
     right: 40px;
-    bottom: 200px;
+    bottom: 175px;
     width: 400px;
 }
 
 .primarySecondaryGrid {
     align-self: center;
     display: grid;
-    grid-template-rows: auto 369px auto;
+    grid-template-rows: auto 423px auto;
     grid-template-columns: repeat(2, 369px);
     grid-row-gap: 20px;
     grid-column-gap: 20px;
@@ -246,7 +240,7 @@
 .primarySecondaryFootnote {
     /* margin-top: 40px; */
     margin-left: 100px;
-    margin-top: 220px;
+    margin-top: 185px;
     width: 890px;
 }
 
@@ -274,8 +268,9 @@
 .secondaryFootnote {
     position: absolute;
     bottom: 80px;
-    width: 955px;
-    align-self: center;
+    width: 450px;
+    /* transform: translateX(-220px); */
+    transform: translateX(75px);
 }
 
 .safety1 {
@@ -296,9 +291,13 @@
 }
 
 .safety4 {
-    cursor: pointer;
     position: absolute;
     right: 40px;
     bottom: 100px;
     width: 235px;
+}
+
+.contraindications1, .contraindications2, .contraindications3 {
+    width: 850px;
+    align-self: center;
 }

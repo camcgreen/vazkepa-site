@@ -34,7 +34,8 @@ export default function Paradigm() {
                     <span className='blue'>
                         VAZKEPA IS THE FIRST AND ONLY TREATMENT
                     </span>{' '}
-                    OF ITS CLASS APPROVED IN EUROPE FOR CV RISK REDUCTION
+                    OF ITS CLASS
+                    <br /> APPROVED IN EUROPEAN UNION FOR CV RISK REDUCTION
                     <sup>1, 2</sup>
                 </h1>
                 <img

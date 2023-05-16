@@ -35,6 +35,19 @@ const Sidebar = ({ navItems }) => {
             navLinks[3].style.top = '65%';
             navLinks[4].style.left = '125px';
             navLinks[4].style.top = '80%';
+        } else if (navItems.length === 6) {
+            navLinks[0].style.left = '30px';
+            navLinks[0].style.top = '10%';
+            navLinks[1].style.left = '110px';
+            navLinks[1].style.top = '23.5%';
+            navLinks[2].style.left = '160px';
+            navLinks[2].style.top = '37%';
+            navLinks[3].style.left = '178px';
+            navLinks[3].style.top = '50.5%';
+            navLinks[4].style.left = '170px';
+            navLinks[4].style.top = '64%';
+            navLinks[5].style.left = '135px';
+            navLinks[5].style.top = '77.5%';
         }
     }, []);
 
@@ -58,6 +71,7 @@ const Sidebar = ({ navItems }) => {
                         <li
                             className='navLi'
                             onClick={() => router.push(item.link)}
+                            key={i}
                             // style={{
                             //     transform:
                             //         router.pathname === item.link

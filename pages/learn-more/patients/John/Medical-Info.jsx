@@ -48,7 +48,7 @@ export default function JohnMedicalInfo() {
 
 
                     <div className={`${styles.profiles} ${styles.singleCard} ${styles.topCardContainer}`} style={{ alignItems: 'flex-start', height: '80vh' }}>
-                        <div className={styles.topCard}>
+                        {/* <div className={styles.topCard}>
                             <div>
                                 <span>
                                     Suffered a MI two months ago
@@ -67,16 +67,17 @@ export default function JohnMedicalInfo() {
                                 </span>
                                 <img src='/images/DownArrow.png' />
                             </div>
-                        </div>
+                        </div> */}
+                        <img src="/images/karin-medical-info-1.png" alt="" style={{ width: 378, marginRight: 40, transform: 'translateX(20px)' }} />
                         <div className={styles.text}>
-                            <span style={{ paddingTop: '80px', fontWeight: 'inherit' }}>
+                            <span style={{ paddingTop: '60px', fontWeight: 'inherit' }}>
                                 John is a 72 year old retired banker, who has a<br />history of hypertension and Type 2 diabetes.
                             </span>
                             {/*                             <span style={{ paddingTop: '0px', fontWeight: 'inherit' }}>
                                 For patients like Karin with prior MI, even with current guideline-recommended therapies, risk for CV events remains in patients.<sup style={{ fontSize: '15px' }}>1</sup>
                             </span> */}
 
-                            <span style={{ paddingTop: '0px' }}>
+                            <span style={{ paddingTop: '20px' }}>
                                 Patients like John may need more help to<br />reduce the risk of CV events in the future.
                             </span>
                         </div>
@@ -124,8 +125,9 @@ export default function JohnMedicalInfo() {
 
 
                     </div> */}
-                    <img src="/images/john-medical-info-1.png" alt="" style={{ width: 819, position: 'relative', top: '-2vh' }} />
-                    <p style={{ position: 'fixed', right: 40, bottom: 100, fontWeight: 300 }}>*Hypothetical patient</p>
+                    <img src="/images/john-medical-info-2.png" alt="" style={{ width: 819, position: 'relative', top: '-2vh' }} />
+                    {/* <p style={{ position: 'fixed', right: 40, bottom: 100, fontWeight: 300 }}>*Hypothetical patient</p> */}
+                    <p style={{ position: 'fixed', left: 850, bottom: 100, fontWeight: 300 }}>*Hypothetical patient</p>
 
                 </div>
 

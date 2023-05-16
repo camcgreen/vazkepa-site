@@ -42,6 +42,10 @@ export default function Safety() {
                         title: 'SAFETY',
                         link: '/reduce-cv-risk/safety',
                     },
+                    {
+                        title: 'CONTRAINDICATIONS',
+                        link: '/reduce-cv-risk/contraindications',
+                    },
                 ]}
             />
             <div className='content'>
@@ -88,6 +92,14 @@ export default function Safety() {
                     alt=''
                     onClick={() =>
                         router.push('/reduce-cv-risk/secondary-endpoints')
+                    }
+                />
+                <img
+                    className='next'
+                    src='/images/next.svg'
+                    alt=''
+                    onClick={() =>
+                        router.push('/reduce-cv-risk/contraindications')
                     }
                 />
                 <Footer

@@ -45,6 +45,10 @@ export default function Study() {
                         title: 'SAFETY',
                         link: '/reduce-cv-risk/safety',
                     },
+                    {
+                        title: 'CONTRAINDICATIONS',
+                        link: '/reduce-cv-risk/contraindications',
+                    },
                 ]}
             />
             <div className='content'>

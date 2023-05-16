@@ -5,7 +5,6 @@ import Router from "next/router"
 
 // const timeout = 6000;
 const timeout = 30000;
-// const timeout = 2000;
 const timeoutPushDelay = 5000;
 const pushToPage = '/'
 
@@ -36,11 +35,11 @@ const IdleTimerComponent = () => {
     useEffect(() => {
 
 
-        // console.log(isIdle, "isIdle from compoenent");
+        console.log(isIdle, "isIdle from compoenent");
         //reset();
 
 
-        // console.log(isIdle)
+        console.log(isIdle)
         vid.current.currentTime = 0;
         isIdle ? vid.current.play() : vid.current.pause()
         let element = document.getElementsByClassName(`${styles.main}`);

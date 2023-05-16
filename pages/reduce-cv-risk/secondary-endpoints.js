@@ -54,6 +54,10 @@ export default function secondaryEndpoints() {
                         title: 'SAFETY',
                         link: '/reduce-cv-risk/safety',
                     },
+                    {
+                        title: 'CONTRAINDICATIONS',
+                        link: '/reduce-cv-risk/contraindications',
+                    },
                 ]}
             />
             <div className='content'>
@@ -76,7 +80,6 @@ export default function secondaryEndpoints() {
                 <div className={styles.secondaryButtons}>
                     <img
                         src={orangeSrc}
-                        style={{ cursor: 'pointer' }}
                         alt=''
                         id='secondaryOrange'
                         className='fade'
@@ -99,7 +102,6 @@ export default function secondaryEndpoints() {
                     />
                     <img
                         src={blue1Src}
-                        style={{ cursor: 'pointer' }}
                         alt=''
                         id='secondaryBlue1'
                         className='fade'
@@ -122,7 +124,6 @@ export default function secondaryEndpoints() {
                     />
                     <img
                         src={blue2Src}
-                        style={{ cursor: 'pointer' }}
                         alt=''
                         id='secondaryBlue2'
                         className='fade'

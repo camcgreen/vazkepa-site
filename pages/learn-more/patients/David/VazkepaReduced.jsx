@@ -71,7 +71,7 @@ export default function VazkepaReduced() {
                 </div> */}
                 <div style={{ display: 'flex' }}>
                     <img src="/images/david-reduced-1.png" alt="" style={{ width: 708, marginLeft: 40, marginRight: 80, position: 'relative', top: '4vh' }} />
-                    <img src="/images/david-reduced-2.png" alt="" style={{ width: 176 }} />
+                    <img src="/images/david-reduced-2.png" alt="" style={{ width: 200 }} />
                 </div>
                 <div className={styles.bottomReducedRisk} style={{ marginTop: 40 }}>
                     {/* <button
@@ -94,13 +94,13 @@ export default function VazkepaReduced() {
                         setShowPopup(true);
                         setPopupIndex(0)
                     }}
-                        style={{ width: 287, marginRight: 40, cursor: 'pointer' }}
+                        style={{ width: 287, marginRight: 40 }}
                     />
                     <img src="/images/david-reduced-3.png" alt="" onClick={() => {
                         setShowPopup(true);
                         setPopupIndex(1)
                     }}
-                        style={{ width: 235, cursor: 'pointer' }}
+                        style={{ width: 235 }}
                     />
                 </div>
                 <p style={{ position: 'relative', top: '12vh', left: '2.5vw', fontSize: '0.8rem', }}>

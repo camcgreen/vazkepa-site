@@ -94,19 +94,19 @@ export default function VazkepaReduced() {
                         setShowPopup(true);
                         setPopupIndex(0);
                     }}
-                        style={{ width: 183, marginRight: 40, cursor: 'pointer' }}
+                        style={{ width: 183, marginRight: 40 }}
                     />
                     <img src="/images/karin-reduced-4.png" alt="" onClick={() => {
                         setShowPopup(true);
                         setPopupIndex(1);
                     }}
-                        style={{ width: 330, marginRight: 40, cursor: 'pointer' }}
+                        style={{ width: 330, marginRight: 40 }}
                     />
                     <img src="/images/karin-reduced-5.png" alt="" onClick={() => {
                         setShowPopup(true);
                         setPopupIndex(2);
                     }}
-                        style={{ width: 236, cursor: 'pointer' }}
+                        style={{ width: 236 }}
                     />
                 </div>
                 <p style={{ position: 'relative', top: '9vh', left: '2.5vw', fontSize: '0.8rem', }}>
