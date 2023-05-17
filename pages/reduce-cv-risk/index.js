@@ -53,11 +53,9 @@ export default function Study() {
             />
             <div className='content'>
                 <h1>
-                    VAZKEPA’S CV BENEFITS WERE STUDIED IN REDUCE-IT IN <br />
-                    HIGH AND VERY{' '}
-                    <span className='blue'>
-                        HIGH RISK PATIENTS WITH ELEVATED TGs <br />
-                    </span>{' '}
+                    <span className='blue'>VAZKEPA’S CV BENEFITS</span> WERE
+                    STUDIED IN REDUCE-IT IN <br />
+                    HIGH AND VERY HIGH RISK PATIENTS WITH ELEVATED TGs <br />
                     ≥1.7 MMOL/L (≥150 MG/DL)<sup>1,2</sup>
                 </h1>
                 <h2>

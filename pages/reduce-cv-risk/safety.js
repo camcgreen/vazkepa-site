@@ -63,6 +63,7 @@ export default function Safety() {
                 <img
                     className={styles.safety1}
                     src='/images/safety-1.png'
+                    style={{ marginBottom: -20 }}
                     alt=''
                 />
                 <img
@@ -74,8 +75,21 @@ export default function Safety() {
                 <img
                     className={styles.safety3}
                     src='/images/safety-3.png'
-                    style={{ marginLeft: 80, maxWidth: 750 }}
+                    style={{
+                        marginLeft: 80,
+                        maxWidth: 600,
+                        // transform: 'translateY(-20px)',
+                    }}
                     alt=''
+                />
+                <img
+                    className={styles.safety4}
+                    src='/images/safety-4.png'
+                    alt=''
+                    onClick={() => {
+                        setShowPopup(true);
+                        setPopupIndex(0);
+                    }}
                 />
                 {/* <img
                     src='/images/safety-4.png'

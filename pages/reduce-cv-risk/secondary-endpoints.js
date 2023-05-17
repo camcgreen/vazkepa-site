@@ -62,7 +62,7 @@ export default function secondaryEndpoints() {
             />
             <div className='content'>
                 <h1>
-                    <span className='blue'>VAZKEPA </span> CONSISTENTLY REDUCED
+                    <span className='blue'>VAZKEPA CONSISTENTLY REDUCED </span>
                     THE RISK OF OTHER SECONDARY ENDPOINTS, INCLUDING A 20% RRR
                     IN CV DEATH<sup>*1,2</sup>
                 </h1>
@@ -145,6 +145,11 @@ export default function secondaryEndpoints() {
                         }}
                     />
                 </div>
+                <img
+                    src='/images/secondary-endpoints-6.png'
+                    alt=''
+                    style={{ width: 260, transform: 'translate(135px, 40px)' }}
+                />
                 <img
                     className='prev'
                     src='/images/prev.svg'

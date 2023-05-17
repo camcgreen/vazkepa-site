@@ -57,11 +57,9 @@ export default function PrimarySecondaryEndpoints() {
             />
             <div className='content'>
                 <h1>
-                    VAZKEPA{' '}
-                    <span className='blue'>
-                        SIGNIFICANTLY REDUCED THE RISK OF MAJOR CV EVENTS
-                    </span>{' '}
-                    IN HIGH AND VERY HIGH CV RISK PATIENTS<sup>1,2</sup>
+                    <span className='blue'>VAZKEPA SIGNIFICANTLY REDUCED</span>{' '}
+                    THE RISK OF MAJOR CV EVENTS IN HIGH AND VERY HIGH CV RISK
+                    PATIENTS<sup>1,2</sup>
                 </h1>
                 {/* <h2>
                     The risk of the primary composite endpoint was significantly
@@ -72,10 +70,10 @@ export default function PrimarySecondaryEndpoints() {
                     id='primarySecondaryGrid'
                 >
                     <p style={{ fontWeight: 700 }}>
-                        Primary Endpoint 5-Point MACE<sup>*</sup>
+                        Primary Endpoint 5-point MACE<sup>*</sup>
                     </p>
                     <p style={{ fontWeight: 700 }}>
-                        Key Secondary Endpoint 3-Point MACE<sup>†</sup>
+                        Key Secondary Endpoint 3-point MACE<sup>†</sup>
                     </p>
                     <img
                         src={orangeSrc}
@@ -125,7 +123,10 @@ export default function PrimarySecondaryEndpoints() {
                             }
                         }}
                     />
-                    <p>Adapted from Bhatt et al. N Engl J Med, 2019.</p>
+                    <p>
+                        Adapted from Bhatt et al. N Engl J Med, 2019.
+                        <sup style={{ fontSize: '.5rem' }}>1</sup>
+                    </p>
                 </div>
                 <img
                     className='prev'

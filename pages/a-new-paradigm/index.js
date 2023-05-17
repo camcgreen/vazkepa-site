@@ -15,16 +15,43 @@ export default function Paradigm() {
         <>
             <Sidebar
                 navItems={[
+                    // {
+                    //     title: 'WHAT IS VAZKEPA?',
+                    //     link: '/a-new-paradigm',
+                    // },
+                    // {
+                    //     title: 'HOW DOES VAZKEPA WORK?',
+                    //     link: '/a-new-paradigm/how-does-vazkepa-work',
+                    // },
+                    // {
+                    //     title: 'GUIDELINES',
+                    //     link: '/a-new-paradigm/guidelines',
+                    // },
                     {
-                        title: 'WHAT IS VAZKEPA?',
+                        title: (
+                            <>
+                                A NEW PARADIGM IN
+                                <br /> CV RISK REDUCTION
+                            </>
+                        ),
                         link: '/a-new-paradigm',
                     },
                     {
-                        title: 'HOW DOES VAZKEPA WORK?',
+                        title: (
+                            <>
+                                VAZKEPA MECHANISM
+                                <br /> OF ACTION
+                            </>
+                        ),
                         link: '/a-new-paradigm/how-does-vazkepa-work',
                     },
                     {
-                        title: 'GUIDELINES',
+                        title: (
+                            <>
+                                VAZKEPA IN
+                                <br /> EUROPEAN GUIDELINES
+                            </>
+                        ),
                         link: '/a-new-paradigm/guidelines',
                     },
                 ]}

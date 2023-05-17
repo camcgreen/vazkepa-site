@@ -10,8 +10,12 @@ export default function Home() {
             title: 'CV RISK MANAGEMENT:\n IS THERE A GAP?',
             link: '/wheres-the-gap',
         },
+        // {
+        //     title: 'A NEW PARADIGM IN\n CV RISK MANAGEMENT',
+        //     link: '/a-new-paradigm',
+        // },
         {
-            title: 'A NEW PARADIGM IN\n CV RISK MANAGEMENT',
+            title: 'A NEW PARADIGM IN\n CV RISK REDUCTION',
             link: '/a-new-paradigm',
         },
         {

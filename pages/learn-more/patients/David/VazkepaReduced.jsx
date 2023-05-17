@@ -72,9 +72,9 @@ export default function VazkepaReduced() {
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     {/* <img src="/images/david-reduced-1.png" alt="" style={{ width: 708, marginLeft: 40, marginRight: 80, position: 'relative', top: '4vh' }} /> */}
                     <img src="/images/david-reduced-1.png" alt="" style={{ width: 708, marginLeft: 100, position: 'relative', top: '4vh' }} />
-                    <img src="/images/david-reduced-2.png" alt="" style={{ width: 176, alignSelf: 'center', transform: 'translateY(25px)', }} />
+                    <img src="/images/david-reduced-2.png" alt="" style={{ width: 217, alignSelf: 'center', transform: 'translateY(40px)', }} />
                 </div>
-                <div className={styles.bottomReducedRisk} style={{ marginTop: 40, transform: 'translateY(40px)', }}>
+                <div className={styles.bottomReducedRisk} style={{ marginTop: 140, transform: 'translateY(40px)', }}>
                     {/* <button
                         onClick={() => {
                             setShowPopup(true);
@@ -104,9 +104,10 @@ export default function VazkepaReduced() {
                         style={{ width: 235, cursor: 'pointer', }}
                     />
                 </div>
-                <p style={{ position: 'relative', top: '12vh', left: '2.5vw', fontSize: '0.8rem', transform: 'translate(30px)' }}>
+                <img src="/images/david-reduced-5.png" alt="" style={{position: 'fixed', width: 929, top: 809, left: 886}} />
+                {/* <p style={{ position: 'relative', top: '12vh', left: '2.5vw', fontSize: '0.8rem', transform: 'translate(30px)' }}>
                     VAZKEPA reduced risk total primary endpoint events by 36% (RR 0.64; 95% CI 0.45-0.90, p=0.01).
-                </p>
+                </p> */}
 
                 <ArrowButtons left />
 

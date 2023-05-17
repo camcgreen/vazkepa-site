@@ -1,6 +1,10 @@
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @font-face {
@@ -16,7 +20,6 @@
     font-weight: 300;
     font-style: italic;
 }
-
 
 @font-face {
     font-family: 'DINPro';
@@ -68,17 +71,13 @@
     font-family: 'DINPro', 'Arial';
 }
 
-
 html,
 body {
-
-    --colBlue: #009ADE;
-    --colOrange: #FF9E18;
+    --colBlue: #009ade;
+    --colOrange: #ff9e18;
     --colGrey: #575756;
-    --colBg: #F5F5F5;
+    --colBg: #f5f5f5;
 }
-
-
 
 body {
     overflow: hidden;
