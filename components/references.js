@@ -7,10 +7,20 @@ const References = ({ setShowReferencesPopup, imgSrc }) => {
                 className={styles.bg}
                 onClick={() => setShowReferencesPopup(false)}
             />
-            {/* <div className={styles.imgHolder}> */}
             <img className={styles.img} src={`/images/${imgSrc}`} alt='' />
-            {/* <img src='/images/close.png' alt='' className={styles.close} /> */}
-            {/* </div> */}
+            <img
+                src='/images/close.png'
+                alt=''
+                className={styles.close}
+                style={{
+                    position: 'fixed',
+                    top: 235,
+                    right: 550,
+                    zIndex: 5,
+                    cursor: 'pointer',
+                }}
+                onClick={() => setShowReferencesPopup(false)}
+            />
         </div>
     );
 };

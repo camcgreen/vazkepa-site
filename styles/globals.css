@@ -149,17 +149,21 @@ sup {
 }
 
 .prev {
+    cursor: pointer;
     position: fixed;
     left: 760px;
-    top: 50%;
-    transform: translateY(calc(-50% - 64px));
+    top: 479px;
+    /* top: 50%;
+    transform: translateY(calc(-50% - 64px)); */
 }
 
 .next {
+    cursor: pointer;
     position: fixed;
     right: 40px;
-    top: 50%;
-    transform: translateY(calc(-50% - 64px));
+    top: 479px;
+    /* top: 50%;
+    transform: translateY(calc(-50% - 64px)); */
 }
 
 .blue {

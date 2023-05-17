@@ -77,7 +77,7 @@ export default function Safety() {
                     style={{ marginLeft: 80, maxWidth: 750 }}
                     alt=''
                 />
-                <img
+                {/* <img
                     src='/images/safety-4.png'
                     alt=''
                     className={styles.safety4}
@@ -85,7 +85,7 @@ export default function Safety() {
                         setShowPopup(true);
                         setPopupIndex(0);
                     }}
-                />
+                /> */}
                 <img
                     className='prev'
                     src='/images/prev.svg'

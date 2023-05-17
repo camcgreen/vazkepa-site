@@ -72,9 +72,7 @@ export default function Contraindications() {
                     className='prev'
                     src='/images/prev.svg'
                     alt=''
-                    onClick={() =>
-                        router.push('/reduce-cv-risk/secondary-endpoints')
-                    }
+                    onClick={() => router.push('/reduce-cv-risk/safety')}
                 />
                 <Footer
                     imgSrc='reference-4.5.png'

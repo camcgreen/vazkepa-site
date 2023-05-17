@@ -74,12 +74,14 @@
 }
 
 .buttonElevated1 {
+    cursor: pointer;
     /* width: 443px; */
     width: 507px;
     margin-right: 40px;
 }
 
 .buttonElevated2 {
+    cursor: pointer;
     width: 236px;
 }
 
@@ -119,11 +121,13 @@
 }
 
 .howButtons img:first-of-type {
+    cursor: pointer;
     width: 222px;
     margin-right: 40px;
 }
 
 .howButtons img:last-of-type {
+    cursor: pointer;
     width: 236px;
 }
 
@@ -199,6 +203,7 @@
 }
 
 .primaryEndpointButtons img {
+    cursor: pointer;
     margin-right: 40px;
 }
 
@@ -211,6 +216,7 @@
 }
 
 .primarySecondaryEndpointButton {
+    cursor: pointer;
     position: fixed;
     right: 40px;
     bottom: 175px;
@@ -234,6 +240,7 @@
 }
 
 .primarySecondaryGrid img {
+    cursor: pointer;
     width: 379px;
 }
 
@@ -260,6 +267,7 @@
 }
 
 .secondaryButtons img {
+    cursor: pointer;
     width: 242px;
     align-self: start;  
 
@@ -269,7 +277,6 @@
     position: absolute;
     bottom: 80px;
     width: 450px;
-    /* transform: translateX(-220px); */
     transform: translateX(75px);
 }
 

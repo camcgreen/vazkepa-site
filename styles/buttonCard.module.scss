@@ -55,8 +55,10 @@
     align-items: center;
     img{
         position: absolute;
-        top: -2vh;
-        left: 14vw;
+        // top: -2vh;
+        // left: 14vw;
+        top: -15px;
+        right: -15px;
         width:50px ;
     }
 }
@@ -73,9 +75,8 @@
     font-size: 1rem;
     img{
         position: absolute;
-        top: -25px;
-        // left: 14vw;
-        right: 0;
+        top: -15px;
+        right: -15px;
         width: 50px;
     }
 }

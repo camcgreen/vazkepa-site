@@ -8,6 +8,19 @@ const Prescribing = ({ setShowPrescribingPopup }) => {
                 onClick={() => setShowPrescribingPopup(false)}
             />
             <img className={styles.img} src='/images/prescribing.png' alt='' />
+            <img
+                src='/images/close.png'
+                alt=''
+                className={styles.close}
+                style={{
+                    position: 'fixed',
+                    top: 235,
+                    right: 550,
+                    zIndex: 5,
+                    cursor: 'pointer',
+                }}
+                onClick={() => setShowPrescribingPopup(false)}
+            />
         </div>
     );
 };

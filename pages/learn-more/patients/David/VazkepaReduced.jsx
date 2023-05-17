@@ -69,11 +69,12 @@ export default function VazkepaReduced() {
                         <img src="\images\learn-more\David\David_Reduced_Arrow.jpg" alt="" />
                     </div>
                 </div> */}
-                <div style={{ display: 'flex' }}>
-                    <img src="/images/david-reduced-1.png" alt="" style={{ width: 708, marginLeft: 40, marginRight: 80, position: 'relative', top: '4vh' }} />
-                    <img src="/images/david-reduced-2.png" alt="" style={{ width: 200 }} />
+                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                    {/* <img src="/images/david-reduced-1.png" alt="" style={{ width: 708, marginLeft: 40, marginRight: 80, position: 'relative', top: '4vh' }} /> */}
+                    <img src="/images/david-reduced-1.png" alt="" style={{ width: 708, marginLeft: 100, position: 'relative', top: '4vh' }} />
+                    <img src="/images/david-reduced-2.png" alt="" style={{ width: 176, alignSelf: 'center', transform: 'translateY(25px)', }} />
                 </div>
-                <div className={styles.bottomReducedRisk} style={{ marginTop: 40 }}>
+                <div className={styles.bottomReducedRisk} style={{ marginTop: 40, transform: 'translateY(40px)', }}>
                     {/* <button
                         onClick={() => {
                             setShowPopup(true);
@@ -94,16 +95,16 @@ export default function VazkepaReduced() {
                         setShowPopup(true);
                         setPopupIndex(0)
                     }}
-                        style={{ width: 287, marginRight: 40 }}
+                        style={{ width: 287, marginRight: 40, cursor: 'pointer', }}
                     />
                     <img src="/images/david-reduced-3.png" alt="" onClick={() => {
                         setShowPopup(true);
                         setPopupIndex(1)
                     }}
-                        style={{ width: 235 }}
+                        style={{ width: 235, cursor: 'pointer', }}
                     />
                 </div>
-                <p style={{ position: 'relative', top: '12vh', left: '2.5vw', fontSize: '0.8rem', }}>
+                <p style={{ position: 'relative', top: '12vh', left: '2.5vw', fontSize: '0.8rem', transform: 'translate(30px)' }}>
                     VAZKEPA reduced risk total primary endpoint events by 36% (RR 0.64; 95% CI 0.45-0.90, p=0.01).
                 </p>
 

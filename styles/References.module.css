@@ -16,9 +16,9 @@
 
 .img {
     z-index: 4;
-    /* width: 920px;
-    height: 700px; */
-    transform: scale(0.5);
+    width: 920px;
+    height: 700px;
+    /* transform: scale(0.5); */
 }
 
 .close {

@@ -71,7 +71,7 @@ export default function VazkepaReduced() {
                 </div> */}
                 <div style={{ display: 'flex', alignSelf: 'center', marginBottom: 80, position: 'relative', top: '4vh' }}>
                     <img src="/images/john-reduced-1.png" alt="" style={{ width: 583 }} />
-                    <img src="/images/john-reduced-2.png" alt="" style={{ width: 220 }} />
+                    <img src="/images/john-reduced-2.png" alt="" style={{ width: 176, alignSelf: 'center' }} />
                 </div>
                 <div className={styles.bottomReducedRisk} >
                     {/* <button
@@ -94,22 +94,22 @@ export default function VazkepaReduced() {
                         setShowPopup(true);
                         setPopupIndex(0);
                     }}
-                        style={{ width: 180, marginRight: 40 }}
+                        style={{ width: 180, marginRight: 40, cursor: 'pointer', }}
                     />
                     <img src="/images/john-reduced-4.png" alt="" onClick={() => {
                         setShowPopup(true);
                         setPopupIndex(1);
                     }}
-                        style={{ width: 281, marginRight: 40 }}
+                        style={{ width: 281, marginRight: 40, cursor: 'pointer', }}
                     />
                     <img src="/images/john-reduced-5.png" alt="" onClick={() => {
                         setShowPopup(true);
                         setPopupIndex(2);
                     }}
-                        style={{ width: 236 }}
+                        style={{ width: 236, cursor: 'pointer', }}
                     />
                 </div>
-                <p style={{ position: 'relative', top: '10vh', left: '2.5vw', fontSize: '0.8rem', }}>
+                <p style={{ position: 'relative', top: '10vh', left: '2.5vw', fontSize: '0.8rem', transform: 'translate(30px)'}}>
                     *REDUCE-IT was not designed to specifically test hypotheses in subgroups.<br />† Time-to-event analysis. RRR and ARR for the primary endpoint were calculated based on the observed event rate: 20.8% in VAZKEPA arm vs 29.4% in the placebo arm over a median<br />follow up period of 4.8 years.<sup style={{fontSize: '0.45rem'}}>1</sup>                </p>
 
                 <ArrowButtons left />
