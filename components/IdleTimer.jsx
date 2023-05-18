@@ -4,7 +4,8 @@ import styles from '../styles/ScreenSaver.module.css'
 import Router from "next/router"
 
 // const timeout = 6000;
-const timeout = 30000;
+// const timeout = 30000;
+const timeout = 120000;
 const timeoutPushDelay = 5000;
 const pushToPage = '/'
 

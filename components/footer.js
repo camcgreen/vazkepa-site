@@ -5,7 +5,6 @@ import Popup from './popup';
 import styles from '../styles/Footer.module.css';
 import { useRouter } from 'next/router';
 
-
 const Footer = ({
     imgSrc,
     popupImgSrc,
@@ -13,9 +12,7 @@ const Footer = ({
     setShowPopup,
     popupIndex,
 }) => {
-
     const router = useRouter();
-
 
     const [showPrescribingPopup, setShowPrescribingPopup] = useState(false);
     const [showReferencesPopup, setShowReferencesPopup] = useState(false);
@@ -52,15 +49,17 @@ const Footer = ({
         }
     }, [showPopup]);
 
-
     const isMedicalInfoPage = () => {
         const string = router.pathname;
         const parts = string.split('/'); // Split the string by '/'
         const lastPart = parts[parts.length - 1]; // Get the last part of the split string
 
-        const result = lastPart == 'David' || lastPart == 'Karin' || lastPart == 'John' ? true : false;
+        const result =
+            lastPart == 'David' || lastPart == 'Karin' || lastPart == 'John'
+                ? true
+                : false;
         return result;
-    }
+    };
     return (
         <>
             <footer className={styles.footer}>
@@ -68,26 +67,25 @@ const Footer = ({
                     <p>VAZKEPA ist in Deutschland nicht erhältlich</p>
                 </div>
                 <div className={styles.right}>
-                    {isMedicalInfoPage() == true ?
-
-                        <div style={{ opacity: '0.5' }}
+                    {isMedicalInfoPage() == true ? (
+                        <div
+                            style={{ opacity: '0.5' }}
                             className={styles.button}
                         >
                             <img src='/images/references.svg' alt='' />
-                            <p >REFERENCES</p>
+                            <p>REFERENCES & ABBREVIATIONS</p>
                         </div>
-
-                        :
+                    ) : (
                         <div
                             className={styles.button}
                             onClick={() =>
-
                                 setShowReferencesPopup(!showReferencesPopup)
                             }
                         >
                             <img src='/images/references.svg' alt='' />
-                            <p>REFERENCES</p>
-                        </div>}
+                            <p>REFERENCES & ABBREVIATIONS</p>
+                        </div>
+                    )}
                     <div className={styles.line} />
                     <div
                         className={styles.button}
@@ -99,21 +97,19 @@ const Footer = ({
                         <p>PRESCRIBING INFORMATION</p>
                     </div>
                 </div>
-            </footer >
+            </footer>
             <Prescribing setShowPrescribingPopup={setShowPrescribingPopup} />
             <References
                 setShowReferencesPopup={setShowReferencesPopup}
                 imgSrc={imgSrc}
             />
-            {
-                popupImgSrc && (
-                    <Popup
-                        setShowPopup={setShowPopup}
-                        popupImgSrc={[...popupImgSrc]}
-                        popupIndex={popupIndex}
-                    />
-                )
-            }
+            {popupImgSrc && (
+                <Popup
+                    setShowPopup={setShowPopup}
+                    popupImgSrc={[...popupImgSrc]}
+                    popupIndex={popupIndex}
+                />
+            )}
         </>
     );
 };
