@@ -35,7 +35,7 @@ export default function Drivers() {
             />
             <div className='content'>
                 <h1>
-                    <span className='blue'>SEVERAL DRIVERS</span>, CONTRIBUTE TO
+                    <span className='blue'>SEVERAL DRIVERS</span> CONTRIBUTE TO
                     RESIDUAL CV RISK
                     <span className='superscript'>
                         <sup>1</sup>
@@ -43,7 +43,7 @@ export default function Drivers() {
                 </h1>
                 <h2>
                     Key pathways modulating residual CV risk in secondary
-                    prevention <sup>1</sup>
+                    prevention<sup>1</sup>
                 </h2>
                 <img
                     src='/images/drivers-1.png'
