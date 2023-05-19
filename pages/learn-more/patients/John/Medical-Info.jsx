@@ -68,7 +68,7 @@ export default function JohnMedicalInfo() {
                                 <img src='/images/DownArrow.png' />
                             </div>
                         </div> */}
-                        <img src="/images/karin-medical-info-1.png" alt="" style={{ width: 378, marginRight: 40, transform: 'translateX(20px)' }} />
+                        <img src="/images/john-medical-info-1.png" alt="" style={{ width: 378, marginRight: 40, transform: 'translateX(20px)' }} />
                         <div className={styles.text}>
                             <span style={{ paddingTop: '60px', fontWeight: 'inherit' }}>
                                 John is a 72 year old retired banker, who has a<br />history of hypertension and Type 2 diabetes.
