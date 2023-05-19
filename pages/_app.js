@@ -23,6 +23,7 @@ export default function App({ Component, pageProps }) {
     return (
         <>
             <Head>
+                <meta name='robots' content='noindex,nofollow' />
                 <title>BOILERPLATE</title>
                 <link rel='icon' href='/favicon.ico' />
             </Head>
